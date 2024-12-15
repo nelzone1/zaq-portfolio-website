@@ -23,9 +23,9 @@ pipeline {
 
                     // Install npm dependencies and build the project 
 
-                    sh 'npm install' 
+                    bat 'npm install' 
 
-                    sh 'npm run build' 
+                    bat 'npm run build' 
 
                 } 
 
