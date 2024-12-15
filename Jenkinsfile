@@ -8,7 +8,8 @@ pipeline {
 
             steps { 
 
-                git 'https://github.com/nelzone1/zaq-portfolio-website.git' 
+                //git 'https://github.com/nelzone1/zaq-portfolio-website.git' 
+                git branch: 'main', url: 'https://github.com/nelzone1/zaq-portfolio-website.git'
 
             } 
 
