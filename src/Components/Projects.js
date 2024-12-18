@@ -1,4 +1,4 @@
-import { Player, Controls } from '@lottiefiles/react-lottie-player'
+import { Player } from '@lottiefiles/react-lottie-player'
 import React from 'react'
 
 const Projects = () => {
@@ -16,10 +16,9 @@ const Projects = () => {
         <h4><a className='links' href='https://github.com/zaqwanay'>Mock twitter API</a></h4>
         <h5>Implemented RESTful API clone of twitter</h5>
         <p className='project-p'>
-          Enviroment: Java, Spring Boot, PostgreSQL
+          Environment: Java, Spring Boot, PostgreSQL
         </p>
       </div>
-
       <div id='project-2'>
         <div className='projectimage'>
           <Player
@@ -31,11 +30,10 @@ const Projects = () => {
           <h4><a className='links' href='https://github.com/zaqwanay/cities_trivia_game'>Cities Trivia Game</a></h4>
           <h5>A CLI trivia game with 3 difficulty levels</h5>
           <p className='project-p'>
-            Enviroment: Python, Django
+            Environment: Python, Django
           </p>
         </div>
       </div>
-
       <div id='project-3'>
         <div className='projectimage'>
           <Player
@@ -47,7 +45,7 @@ const Projects = () => {
           <h4><a className='links' href='https://github.com/zaqwanay'>Employee Org Chart</a></h4>
           <h5>Work map chart to find employees and managers</h5>
           <p className='project-p'>
-            Enviroment: Java
+            Environment: Java
           </p>
         </div>
       </div>

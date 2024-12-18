@@ -1,6 +1,4 @@
-import { Player, Controls } from '@lottiefiles/react-lottie-player'
 import { FaInstagram, FaFacebookSquare, FaTwitter, FaGithubSquare } from 'react-icons/fa'
-import { MdOutlineContactMail } from 'react-icons/md'
 import { RiHomeWifiFill } from 'react-icons/ri'
 
 const Footer = () => {
