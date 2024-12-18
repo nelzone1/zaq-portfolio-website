@@ -24,7 +24,8 @@ const AboutMe = () => {
     <div className='about-me' id='about_me'>
       <div className='about-me-special'>
         <div className='about-me-image'>
-          <img src={profilePicURL} alt="Profile picture of Alex Yesufu" />
+          {/* Updated alt text */}
+          <img src={profilePicURL} alt="Alex Yesufu's profile photo" />
         </div>
         <div className='about-me-special2'>
           <div className='about-me-special3'>
