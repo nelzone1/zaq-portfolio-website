@@ -10,6 +10,3 @@ root.render(
     <App />
   </React.StrictMode>
 )
-
-// Measure performance (optional)
-reportWebVitals(console.log)  // You can replace `console.log` with your own analytics function
