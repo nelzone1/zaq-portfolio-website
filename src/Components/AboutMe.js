@@ -24,8 +24,11 @@ const AboutMe = () => {
     <div className='about-me' id='about_me'>
       <div className='about-me-special'>
         <div className='about-me-image'>
-          {/* Updated alt text */}
-          <img src={profilePicURL} alt="Alex Yesufu's profile photo" />
+          {/* Updated alt text to be more generic and non-redundant */}
+          <img 
+            src={profilePicURL} 
+            alt="Alex Yesufu" // Removed any redundant reference to "photo" or "image"
+          />
         </div>
         <div className='about-me-special2'>
           <div className='about-me-special3'>
